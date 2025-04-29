@@ -16,22 +16,27 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Setup Node.js
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 10
+          run_install: false
+
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22.x"
-          cache: "npm"
+          node-version: 20
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
       - name: Cache Turbo artifacts
         uses: rharkor/caching-for-turbo@v1.8
 
       - name: Setup required packages
         run: |
-          npm install -g turbo
-          npm run setup
+          pnpm run setup
 
       - name: Run Turbo tasks concurrently
         run: turbo run lint prettier type-check --concurrency=4
