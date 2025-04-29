@@ -1,12 +1,12 @@
 import sonarjsPlugin from "eslint-plugin-sonarjs"
 import tseslint from "typescript-eslint"
 
-import { fixupPluginRules } from "@eslint/compat"
+import { FixupPluginDefinition, fixupPluginRules } from "@eslint/compat"
 
 /** @todo needs some cleaning once full eslint flat config compatibility is out */
 export default tseslint.config({
   plugins: {
-    sonarjs: fixupPluginRules(sonarjsPlugin),
+    sonarjs: fixupPluginRules(sonarjsPlugin as FixupPluginDefinition),
   },
   rules: {
     ...sonarjsPlugin.configs.recommended.rules,

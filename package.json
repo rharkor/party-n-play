@@ -13,11 +13,15 @@
     "lint:fix": "turbo run lint:fix",
     "prettier": "turbo run prettier",
     "prettier:fix": "turbo run prettier:fix",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "setup": "turbo run build --filter='@party-n-play/*'^..."
   },
   "pnpm": {
     "overrides": {}
   },
   "resolutions": {},
-  "packageManager": "pnpm@10.6.2"
+  "packageManager": "pnpm@10.8.1",
+  "devDependencies": {
+    "turbo": "^2.5.2"
+  }
 }

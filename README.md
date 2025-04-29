@@ -73,6 +73,17 @@ The project uses a monorepo structure managed by Turborepo. Each application and
 - Prettier is used for consistent code formatting
 - TypeScript ensures type safety across the project
 
+### Git Hooks
+
+The project uses a custom git hook script to enforce conventional commits and set up the proper git hooks path.
+Commit examples:
+
+```bash
+git commit -m "feat(captcha-solver): add captcha solver (#1)"
+git commit -m "fix(captcha-solver): fix captcha solver (#2)"
+git commit -m "refactor(captcha-solver): refactor captcha solver (#3)"
+```
+
 ## 📄 License
 
 This project is licensed under the MIT License.
