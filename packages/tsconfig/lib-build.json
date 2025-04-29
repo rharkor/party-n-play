@@ -1,0 +1,10 @@
+{
+  "extends": "./lib.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": false,
+    "outDir": "dist",
+    "noEmit": false
+  }
+}

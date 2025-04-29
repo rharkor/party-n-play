@@ -1,0 +1,3 @@
+{
+  "extends": "@party-n-play/tsconfig/lib-build.json"
+}
