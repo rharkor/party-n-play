@@ -1,0 +1,24 @@
+{
+  "name": "@party-n-play/prettier",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsup src --format esm,cjs && tsc -p tsconfig.build.json",
+    "type-check": "tsc --noEmit",
+    "prettier": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
+    "prettier:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
+  },
+  "devDependencies": {
+    "@party-n-play/tsconfig": "workspace:*",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "tsup": "^8.4.0"
+  },
+  "exports": {
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js",
+      "require": "./dist/*.cjs"
+    }
+  },
+  "type": "module"
+}
