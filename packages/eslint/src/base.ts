@@ -1,17 +1,17 @@
 import globals from "globals"
 import tseslint from "typescript-eslint"
 
-import baseConfig from "./configs/base.js"
-import jsdocConfig from "./configs/jsdoc.js"
-import jsonConfig from "./configs/json.js"
-import perfectionistConfig from "./configs/perfectionist.js"
-import promiseConfig from "./configs/promise.js"
-import simpleImportSortConfig from "./configs/simple-import-sort.js"
-import sonarjsConfig from "./configs/sonarjs.js"
-import stylisticConfig from "./configs/stylistic.js"
-import typescriptConfig from "./configs/typescript.js"
-import unicornConfig from "./configs/unicorn.js"
-import unusedImports from "./configs/unused-imports.js"
+import baseConfig from "./configs/base"
+import jsdocConfig from "./configs/jsdoc"
+import jsonConfig from "./configs/json"
+import perfectionistConfig from "./configs/perfectionist"
+import promiseConfig from "./configs/promise"
+import simpleImportSortConfig from "./configs/simple-import-sort"
+import sonarjsConfig from "./configs/sonarjs"
+import stylisticConfig from "./configs/stylistic"
+import typescriptConfig from "./configs/typescript"
+import unicornConfig from "./configs/unicorn"
+import unusedImports from "./configs/unused-imports"
 
 const config = tseslint.config(
   ...jsonConfig,
