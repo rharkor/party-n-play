@@ -15,9 +15,9 @@ logs:
 
 .PHONY: api
 api: 
-	pnpm run setup
-	pnpm run dev --filter ./apps/api
+	$(NPM) run setup
+	$(NPM) run --filter $(API_PATH) dev
 .PHONY: app
 app:
-	pnpm run setup
-	pnpm run dev --filter ./apps/front
+	$(NPM) run setup
+	$(NPM) run --filter $(APP_PATH) dev
