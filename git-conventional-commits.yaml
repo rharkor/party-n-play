@@ -16,6 +16,7 @@ convention:
   commitScopes: []
   releaseTagGlobPattern: v[0-9]*.[0-9]*.[0-9]*
   issueRegexPattern: "#[0-9]+"
+  commitMessageRegexPattern: ^(?<type>\w+)(?:\((?<scope>[^()]+)\))?(?<breaking>!)?:\s*(?<description>.+?)\s+\(#\d+\)$
 changelog:
   commitTypes:
     - feat
