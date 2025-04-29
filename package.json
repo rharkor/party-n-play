@@ -1,20 +1,27 @@
 {
-  "name": "my-project",
+  "name": "party-n-play",
   "version": "0.0.0",
   "license": "MIT",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "build": "turbo run build",
+    "type-check": "turbo run type-check",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "prettier": "turbo run prettier",
+    "prettier:fix": "turbo run prettier:fix",
+    "test": "turbo run test",
+    "setup": "turbo run build --filter='@party-n-play/*'^..."
   },
   "pnpm": {
     "overrides": {}
   },
+  "resolutions": {},
+  "packageManager": "pnpm@10.8.1",
   "devDependencies": {
-    "@my-project/tsconfig": "workspace:^",
-    "eslint": "^9.11.1",
-    "typescript": "^5.5.3"
-  },
-  "resolutions": {}
+    "turbo": "^2.5.2"
+  }
 }
