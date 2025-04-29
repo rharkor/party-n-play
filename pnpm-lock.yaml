@@ -6,26 +6,7 @@ settings:
 
 importers:
 
-  .:
-    devDependencies:
-      '@my-project/tsconfig':
-        specifier: workspace:^
-        version: link:packages/tsconfig
-      eslint:
-        specifier: ^9.11.1
-        version: 9.11.1
-      typescript:
-        specifier: ^5.5.3
-        version: 5.6.3
-
-  apps/exemple:
-    devDependencies:
-      '@my-project/eslint-config':
-        specifier: workspace:^
-        version: link:../../packages/eslint
-      '@my-project/tsconfig':
-        specifier: workspace:^
-        version: link:../../packages/tsconfig
+  .: {}
 
   packages/eslint:
     devDependencies:
@@ -95,9 +76,9 @@ importers:
 
   packages/tsconfig:
     devDependencies:
-      '@tsconfig/node22':
-        specifier: ^22.0.0
-        version: 22.0.0
+      '@tsconfig/node20':
+        specifier: ^20.0.0
+        version: 20.1.5
       '@tsconfig/strictest':
         specifier: ^2.0.5
         version: 2.0.5
@@ -855,8 +836,8 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@tsconfig/node22@22.0.0':
-    resolution: {integrity: sha512-twLQ77zevtxobBOD4ToAtVmuYrpeYUh3qh+TEp+08IWhpsrIflVHqQ1F1CiPxQGL7doCdBIOOCF+1Tm833faNg==}
+  '@tsconfig/node20@20.1.5':
+    resolution: {integrity: sha512-Vm8e3WxDTqMGPU4GATF9keQAIy1Drd7bPwlgzKJnZtoOsTm1tduUTbDjg0W5qERvGuxPI2h9RbMufH0YdfBylA==}
 
   '@tsconfig/strictest@2.0.5':
     resolution: {integrity: sha512-ec4tjL2Rr0pkZ5hww65c+EEPYwxOi4Ryv+0MtjeaSQRJyq322Q27eOQiFbuNgw2hpL4hB1/W/HBGk3VKS43osg==}
@@ -3275,7 +3256,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tsconfig/node22@22.0.0': {}
+  '@tsconfig/node20@20.1.5': {}
 
   '@tsconfig/strictest@2.0.5': {}
 

@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "party-n-play",
   "version": "0.0.0",
   "license": "MIT",
   "engines": {
@@ -10,11 +10,6 @@
   },
   "pnpm": {
     "overrides": {}
-  },
-  "devDependencies": {
-    "@my-project/tsconfig": "workspace:^",
-    "eslint": "^9.11.1",
-    "typescript": "^5.5.3"
   },
   "resolutions": {}
 }
