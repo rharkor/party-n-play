@@ -33,6 +33,7 @@ jobs:
 
       - name: Setup required packages
         run: |
+          pnpm install -g turbo
           pnpm run setup
 
       - name: Run Turbo tasks concurrently
