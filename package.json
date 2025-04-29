@@ -13,7 +13,8 @@
     "lint:fix": "turbo run lint:fix",
     "prettier": "turbo run prettier",
     "prettier:fix": "turbo run prettier:fix",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "setup": "turbo run build --filter='@party-n-play/*'^..."
   },
   "pnpm": {
     "overrides": {}
