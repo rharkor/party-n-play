@@ -562,7 +562,7 @@ importers:
         version: 0.2.3(eslint@9.34.0(jiti@2.5.1))
       eslint-plugin-jsdoc:
         specifier: ^54.0.0
-        version: 54.2.1(eslint@9.34.0(jiti@2.5.1))
+        version: 54.3.0(eslint@9.34.0(jiti@2.5.1))
       eslint-plugin-json:
         specifier: ^4.0.1
         version: 4.0.1
@@ -2694,8 +2694,8 @@ packages:
   '@types/node@22.18.0':
     resolution: {integrity: sha512-m5ObIqwsUp6BZzyiy4RdZpzWGub9bqLJMvZDD0QMXhxjqMHMENlj+SqF5QxoUwaQNFe+8kz8XM8ZQhqkQPTgMQ==}
 
-  '@types/node@22.18.4':
-    resolution: {integrity: sha512-UJdblFqXymSBhmZf96BnbisoFIr8ooiiBRMolQgg77Ea+VM37jXw76C2LQr9n8wm9+i/OvlUlW6xSvqwzwqznw==}
+  '@types/node@22.18.5':
+    resolution: {integrity: sha512-g9BpPfJvxYBXUWI9bV37j6d6LTMNQ88hPwdWWUeYZnMhlo66FIg9gCc1/DZb15QylJSKwOZjwrckvOTWpOiChg==}
 
   '@types/pg@8.15.2':
     resolution: {integrity: sha512-+BKxo5mM6+/A1soSHBI7ufUglqYXntChLDyTbvcAn1Lawi9J7J9Ok3jt6w7I0+T/UDJ4CyhHk66+GZbwmkYxSg==}
@@ -4018,8 +4018,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-jsdoc@54.2.1:
-    resolution: {integrity: sha512-RHmDsuxbMXJ11HVHuJJ4nlWxN+LKykDaL2evNuODshslR4sRPJPiiGwih8lNpwyFwSe9Apc6zMMXHWq/7P2mPA==}
+  eslint-plugin-jsdoc@54.3.0:
+    resolution: {integrity: sha512-G1f3iztVfkmsazoodrvtC71ihdnoZuUhgSXNH1smIGuCWpCFYuFQcv7jAslqQUyVPyGO4lymHsBdRc56bQa79A==}
     engines: {node: '>=20.11.0'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -8461,14 +8461,14 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@22.18.4':
+  '@types/node@22.18.5':
     dependencies:
       undici-types: 6.21.0
     optional: true
 
   '@types/pg@8.15.2':
     dependencies:
-      '@types/node': 22.18.4
+      '@types/node': 22.18.5
       pg-protocol: 1.10.3
       pg-types: 4.1.0
     optional: true
@@ -9981,7 +9981,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-jsdoc@54.2.1(eslint@9.34.0(jiti@2.5.1)):
+  eslint-plugin-jsdoc@54.3.0(eslint@9.34.0(jiti@2.5.1)):
     dependencies:
       '@es-joy/jsdoccomment': 0.53.0
       are-docs-informative: 0.0.2
