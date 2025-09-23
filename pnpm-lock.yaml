@@ -83,7 +83,7 @@ importers:
         version: 6.0.3
       globals:
         specifier: ^16.0.0
-        version: 16.3.0
+        version: 16.4.0
       jest:
         specifier: ^30.0.0
         version: 30.1.3(@types/node@22.18.1)(esbuild-register@3.6.0(esbuild@0.25.9))(ts-node@10.9.2(@swc/core@1.13.5)(@types/node@22.18.1)(typescript@5.9.2))
@@ -186,7 +186,7 @@ importers:
         version: 6.0.3
       globals:
         specifier: ^16.0.0
-        version: 16.3.0
+        version: 16.4.0
       jest:
         specifier: ^30.0.0
         version: 30.1.3(@types/node@22.18.1)(esbuild-register@3.6.0(esbuild@0.25.9))(ts-node@10.9.2(@swc/core@1.13.5)(@types/node@22.18.1)(typescript@5.9.2))
@@ -280,7 +280,7 @@ importers:
         version: 6.0.3
       globals:
         specifier: ^16.0.0
-        version: 16.3.0
+        version: 16.4.0
       jest:
         specifier: ^30.0.0
         version: 30.1.3(@types/node@22.18.1)(esbuild-register@3.6.0(esbuild@0.25.9))(ts-node@10.9.2(@swc/core@1.13.5)(@types/node@22.18.1)(typescript@5.9.2))
@@ -401,7 +401,7 @@ importers:
         version: 6.0.3
       globals:
         specifier: ^16.0.0
-        version: 16.3.0
+        version: 16.4.0
       jest:
         specifier: ^30.0.0
         version: 30.1.3(@types/node@22.18.1)(esbuild-register@3.6.0(esbuild@0.25.9))(ts-node@10.9.2(@swc/core@1.13.5)(@types/node@22.18.1)(typescript@5.9.2))
@@ -589,7 +589,7 @@ importers:
         version: 4.2.0(@typescript-eslint/eslint-plugin@8.43.0(@typescript-eslint/parser@8.43.0(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.35.0(jiti@2.5.1))
       globals:
         specifier: ^16.0.0
-        version: 16.3.0
+        version: 16.4.0
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -4399,8 +4399,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@16.3.0:
-    resolution: {integrity: sha512-bqWEnJ1Nt3neqx2q5SFfGS8r/ahumIakg3HcwtNlrVlwXIeNumWn/c7Pn/wKzGhf6SaW6H6uWXLqC30STCMchQ==}
+  globals@16.4.0:
+    resolution: {integrity: sha512-ob/2LcVVaVGCYN+r14cnwnoDPUufjiYgSqRhiFD0Q1iI4Odora5RE8Iv1D24hAz5oMophRGkGz+yuvQmmUMnMw==}
     engines: {node: '>=18'}
 
   globalthis@1.0.4:
@@ -4965,8 +4965,8 @@ packages:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
 
-  libphonenumber-js@1.12.18:
-    resolution: {integrity: sha512-k0pdkX8DXHqVrby7yJ23WBcHMCX1lhwvX/Uazh0vf3wfGQa0qDIyRB2Z2C01JREGGt8Assfwl1yZduq59OjXXQ==}
+  libphonenumber-js@1.12.21:
+    resolution: {integrity: sha512-z/o0jBYS3d8js1QBksrHxZUARjmM0S6uvpINkyJ9IcPkXIoUh5l4S3rTbGAlq9ThbCExdSV0wWp8gw7729A/ww==}
 
   lightningcss-darwin-arm64@1.30.1:
     resolution: {integrity: sha512-c8JK7hyE65X1MHMN+Viq9n11RRC7hgin3HhYKhrMyaXflk5GVplZ60IxyoVtzILeKr+xAJwg6zK6sjTBJ0FKYQ==}
@@ -9326,7 +9326,7 @@ snapshots:
   class-validator@0.14.2:
     dependencies:
       '@types/validator': 13.15.3
-      libphonenumber-js: 1.12.18
+      libphonenumber-js: 1.12.21
       validator: 13.15.15
     optional: true
 
@@ -10071,7 +10071,7 @@ snapshots:
       eslint: 9.35.0(jiti@2.5.1)
       esquery: 1.6.0
       find-up-simple: 1.0.1
-      globals: 16.3.0
+      globals: 16.4.0
       indent-string: 5.0.0
       is-builtin-module: 5.0.0
       jsesc: 3.1.0
@@ -10524,7 +10524,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@16.3.0: {}
+  globals@16.4.0: {}
 
   globalthis@1.0.4:
     dependencies:
@@ -11308,7 +11308,7 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  libphonenumber-js@1.12.18:
+  libphonenumber-js@1.12.21:
     optional: true
 
   lightningcss-darwin-arm64@1.30.1:
