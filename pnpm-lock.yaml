@@ -40,7 +40,7 @@ importers:
         version: link:../../packages/tsconfig
       dotenv:
         specifier: ^17.0.0
-        version: 17.2.2
+        version: 17.2.3
       nats:
         specifier: ^2.29.3
         version: 2.29.3
@@ -137,7 +137,7 @@ importers:
         version: link:../../../packages/tsconfig
       dotenv:
         specifier: ^17.0.0
-        version: 17.2.2
+        version: 17.2.3
       drizzle-orm:
         specifier: ^0.44.2
         version: 0.44.5(@types/pg@8.15.2)(pg@8.16.0)(postgres@3.4.7)
@@ -237,7 +237,7 @@ importers:
         version: link:../../../packages/tsconfig
       dotenv:
         specifier: ^17.0.0
-        version: 17.2.2
+        version: 17.2.3
       nats:
         specifier: ^2.29.3
         version: 2.29.3
@@ -346,7 +346,7 @@ importers:
         version: 6.0.0
       dotenv:
         specifier: ^17.0.0
-        version: 17.2.2
+        version: 17.2.3
       drizzle-orm:
         specifier: ^0.44.2
         version: 0.44.5(@types/pg@8.15.2)(pg@8.16.0)(postgres@3.4.7)
@@ -492,7 +492,7 @@ importers:
         version: link:../prettier
       dotenv:
         specifier: ^17.0.0
-        version: 17.2.2
+        version: 17.2.3
       drizzle-orm:
         specifier: ^0.44.2
         version: 0.44.5(@types/pg@8.15.2)(pg@8.16.0)(postgres@3.4.7)
@@ -3561,8 +3561,8 @@ packages:
     resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
     engines: {node: '>=12'}
 
-  dotenv@17.2.2:
-    resolution: {integrity: sha512-Sf2LSQP+bOlhKWWyhFsn0UsfdK/kCWRv1iuA2gXAwt3dyNabr6QSj00I2V10pidqz69soatm9ZwZvpQMTIOd5Q==}
+  dotenv@17.2.3:
+    resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
     engines: {node: '>=12'}
 
   drizzle-kit@0.31.5:
@@ -9354,7 +9354,7 @@ snapshots:
 
   dotenv@16.4.7: {}
 
-  dotenv@17.2.2: {}
+  dotenv@17.2.3: {}
 
   drizzle-kit@0.31.5:
     dependencies:
