@@ -462,10 +462,10 @@ importers:
         version: 22.18.8
       '@types/react':
         specifier: ^19
-        version: 19.2.0
+        version: 19.2.1
       '@types/react-dom':
         specifier: ^19
-        version: 19.2.0(@types/react@19.2.0)
+        version: 19.2.0(@types/react@19.2.1)
       eslint:
         specifier: ^9
         version: 9.37.0(jiti@2.6.1)
@@ -2560,8 +2560,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.0':
-    resolution: {integrity: sha512-1LOH8xovvsKsCBq1wnT4ntDUdCJKmnEakhsuoUSy6ExlHCkGP2hqnatagYTgFk6oeL0VU31u7SNjunPN+GchtA==}
+  '@types/react@19.2.1':
+    resolution: {integrity: sha512-1U5NQWh/GylZQ50ZMnnPjkYHEaGhg6t5i/KI0LDDh3t4E3h3T3vzm+GLY2BRzMfIjSBwzm6tginoZl5z0O/qsA==}
 
   '@types/send@0.17.4':
     resolution: {integrity: sha512-x2EM6TJOybec7c52BX0ZspPodMsQUd5L6PRwOunVyVUhXiBSKf3AezDL8Dgvgt5o0UfKNfuA0eMLr2wLT4AiBA==}
@@ -8279,11 +8279,11 @@ snapshots:
 
   '@types/range-parser@1.2.7': {}
 
-  '@types/react-dom@19.2.0(@types/react@19.2.0)':
+  '@types/react-dom@19.2.0(@types/react@19.2.1)':
     dependencies:
-      '@types/react': 19.2.0
+      '@types/react': 19.2.1
 
-  '@types/react@19.2.0':
+  '@types/react@19.2.1':
     dependencies:
       csstype: 3.1.3
 
