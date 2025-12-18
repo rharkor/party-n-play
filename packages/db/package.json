@@ -25,7 +25,7 @@
     "@party-n-play/eslint-config": "workspace:*",
     "@party-n-play/prettier": "workspace:*",
     "dotenv": "^17.0.0",
-    "drizzle-orm": "^0.44.2",
+    "drizzle-orm": "^0.45.0",
     "postgres": "^3.4.7",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
