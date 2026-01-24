@@ -20,7 +20,7 @@
     "overrides": {}
   },
   "resolutions": {},
-  "packageManager": "pnpm@10.27.0",
+  "packageManager": "pnpm@10.28.0",
   "devDependencies": {
     "turbo": "^2.5.2"
   }
